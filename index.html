@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Week 8 Lab</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row" id="buffer">
+                <div class="col-lg-12"></div>
+            </div>
+            <div class="row thick-border-top" id="banner">
+                <div class="col-lg-12 my-auto">
+                    <h1 class="centered">Rock, Paper, Scissors</h1>
+                </div>
+            </div>
+            <div class="row thick-border-bottom" id="main-1">
+                <div class="col-lg-4 my-auto" id="hide-details">
+                    <form action="submitUserDetails">
+                        <h2>Player</h2>
+                        <p>Enter Name: <input type="text" class="form-position" id="name"><span><button type="button" onclick="submitUserDetails()" class="submit-button-position">Submit</button></span></p><br>
+                    </form>
+                </div>
+                <div class="col-lg-4 my-auto" id="rules">
+                    <h2>Rules</h2>
+                    <p>Winner is best of five</p>
+                    <p>Choose 1 for Rock, 2 for Paper, 3 for Scissors</p>
+                </div>
+                <div class="col-lg-4 my-auto">
+                    <button type="button" onclick="playRound()" id="play-button"><h2>Click To Play</h2></button>
+                </div>
+            </div>
+            <div class="row thick-border-bottom" id="main-2">
+                <div class="col-lg-2" id="column-1">
+                    <h2 class="rounds">Round</h2>
+                    <p class="rounds">1</p>
+                    <p class="rounds">2</p>
+                    <p class="rounds">3</p>
+                    <p class="rounds">4</p>
+                    <p class="rounds">5</p>
+                </div>
+                <div class="col-lg-3" id="column-2">
+                    <h2 id="name-visible"></h2>
+                    <p id="player-round-1">Winner</p>
+                    <p id="player-round-2">Winner</p>
+                    <p id="player-round-3">Winner</p>
+                    <p id="player-round-4">Winner</p>
+                    <p id="player-round-5">Winner</p>
+                </div>
+                <div class="col-lg-3" id="column-3">
+                    <h2>Computer</h2>
+                    <p id="computer-round-1">Winner</p>
+                    <p id="computer-round-2">Winner</p>
+                    <p id="computer-round-3">Winner</p>
+                    <p id="computer-round-4">Winner</p>
+                    <p id="computer-round-5">Winner</p>
+                </div>
+                <div class="col-lg-4 my-auto">
+                    <button type="button" onclick="playRound()" id="next-round-button"><h2>Click To Play Next Round</h2></button>
+                </div>
+            </div>
+            <div class="row thick-border-bottom" id="game-over">
+                <div class="col-lg-12 my-auto">
+                    <h2 class="centered" id="winner"></h2>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

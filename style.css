@@ -1,0 +1,166 @@
+@media (max-width: 767px) {
+    body {
+        display: none;
+    }
+}
+
+body {
+    background-color: coral;
+    color: sienna;
+}
+
+h1 {
+    color: lavenderblush;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+input {
+    border: 2px solid steelblue;
+    background-color: lavenderblush;
+    color: sienna;
+}
+
+.container {
+    position: relative;
+}
+
+.submit-button-position {
+    color: sienna;
+    position: absolute;
+    left: 330px;
+    border: 2px solid steelblue;
+    background-color: lavenderblush;
+}
+
+.centered {
+    text-align: center;
+}
+
+.rounds {
+    text-align: right;
+}
+
+.thick-border-top {
+    border-top: 20px solid steelblue;
+    border-left: 20px solid steelblue;
+    border-right: 20px solid steelblue;
+}
+
+.thick-border-bottom {
+    border-bottom: 20px solid steelblue;
+    border-left: 20px solid steelblue;
+    border-right: 20px solid steelblue;
+}
+
+#rules {
+    display: none;
+}
+
+#buffer {
+    height: 100px;
+}
+
+#banner {
+    height: 100px;
+    background-color: darkseagreen;
+}
+
+#main-1 {
+    height: 300px;
+    background-color: lavender;
+}
+
+#main-2 {
+    height: 300px;
+    justify-content: center;
+    background-color: lavender;
+    display: none;
+}
+
+#name {
+    border: 2px solid steelblue;
+}
+
+#play-button {
+    color: sienna;
+    border: 2px solid steelblue;
+    background-color: lavenderblush;
+    margin: 0 auto;
+    display: none;
+}
+
+#next-round-button {
+    color: sienna;
+    border: 2px solid steelblue;
+    background-color: lavenderblush;
+    margin: 0 auto;
+    display: none;
+}
+
+#hide-details {
+    /* display property will be changed to 'none' in JavaScript function, resulting in form being hidden */
+    display: block;
+}
+
+#column-1 {
+    width: 10%;
+}
+
+#column-2 {
+    width: 20%;
+    margin-left: 40px;
+}
+
+#column-3 {
+    width: 20%;
+}
+
+#player-round-1 {
+    color: lavender;
+}
+
+#player-round-2 {
+    color: lavender;
+}
+
+#player-round-3 {
+    color: lavender;
+}
+
+#player-round-4 {
+    color: lavender;
+}
+
+#player-round-5 {
+    color: lavender;
+}
+
+#computer-round-1 {
+    color: lavender;
+}
+
+#computer-round-2 {
+    color: lavender;
+}
+
+#computer-round-3 {
+    color: lavender;
+}
+
+#computer-round-4 {
+    color: lavender;
+}
+
+#computer-round-5 {
+    color: lavender;
+}
+
+#game-over {
+    height: 300px;
+    justify-content: center;
+    background-color: lavender;
+    display: none;
+}
